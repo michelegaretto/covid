@@ -1,0 +1,49 @@
+# example input file of corona
+2074	Random number generator seed
+1       run simulation (0/1)
+sim     name of simulation
+9       Debug level
+0       Transient duration (s) (0 = none, -1 = cache full)
+0       Batch duration (s) (0 = no batch analysis; 1 = equal to transient)
+175	Simulation duration (s) (zero = determined by batch analysis)
+0.01    Sample interval (s) (zero = none)
+1.0	Print  interval (s) (zero = none)
+1	type of incub (unif 0, tri 1)
+2	minincubtime
+12	maxincubtime
+6	aveincubtime (if applicable)
+2	presicktime
+0	type of sick time (unif 0, tri 1)
+2	minsicktime
+12	maxsicktime
+7	avesicktime (if applicable)
+0	type of death time (unif 0, tri 1)
+2	mindeathtime
+12	maxdeathtime
+7	avedeathtime (if applicable)
+0       type of residual (exp 0, lognormal 1)
+10.0	averesidual
+0.0	sigmaresidual (if applicable)
+0.05	low infection rate
+1.0	high infection rate
+0.91	asymptomatic probability
+0.03	super-diffusor probability
+0.4	intensive therapy and death prob
+0.2	intensive therapy and recover prob
+370	initial number of positives
+2	type of factor
+3.71	factor param1
+0.315   factor param2
+30	factor param3
+-3	factor param4
+70      factor param5
+100	factor param6
+1.0	factor param7
+2	type of swabs
+0	swabs param1
+0.000115 swabs param2
+60	swabs param3
+0	computeR0 (0/1)
+1.0	binR0
+-1	guard time to compute R0 (-1 = maxI + maxD)
+20	anticipation time
