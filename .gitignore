@@ -1,0 +1,4 @@
+corona
+*.o
+README.md~
+.gitignore~
