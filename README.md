@@ -1,5 +1,5 @@
 #
-# This the event-driven simulator used to derive results of paper :
+# This project contains the event-driven simulator and data files used to derive results of paper:
 # "A time-modulated Hawkes process to model the spread of COVID-19 and the impact of countermeasures"
 # by Michele Garetto (michele.garetto@unito.it), Emilio Leonardi (emilio.leonardi@polito.it), Giovanni-Luca Torrisi (giovanniluca.torrisi@cnr.it)
 # 
