@@ -17,8 +17,8 @@
 # which is later plotted using gnuplot
 
 # The sub-directory "second" contains additional files related to the second wave of COVID in Italy:
-# A different virus.cc file to obtain reversely fitted profiles mu(t) and rho(t)
-# Mobility data: 
+# - A different virus.cc file to obtain reversely fitted profiles mu(t) and rho(t)
+# - mobility data: mobility_apple.res 
 
 # All code is made available under GNU GPL v3 license.
 # For inquires please contact Michele Garetto, michele.garetto@unito.it
